@@ -1,0 +1,7 @@
+Memory	Mnemonics	Operands	Comment
+2000	LDA	[3000]	[A] <- [3000]
+2003	CMA		[A] <- [A^]
+2004	STA	[3001]	1’s complement
+2007	ADI	01	[A] <- [A] + 01
+2009	STA	[3002]	2’s complement
+200C	HLT		Stop
